@@ -1,0 +1,49 @@
+html{
+	font-size: 18px;
+}
+
+header{
+	background-color: black;
+}
+
+header span{
+	color: white;
+	font-family: Helvetica;
+	padding-top: 0.66rem;
+	padding-bottom: 0.66rem;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+#top{
+	background-color: black;
+	width: 25rem;
+}
+
+#top p{
+	font-family: Helvetica;
+	font-size: 1rem;
+	font-weight: bold;
+	padding-top: 2rem;
+	padding-left: 3rem;
+	padding-bottom: 0.25rem;
+	color: white;
+}
+
+#top h2{
+	font-family: Helvetica;
+	font-weight: bold;
+	color: white;
+	padding-bottom: 2rem;
+	padding-left: 3rem;
+	font-size: 2rem;
+}
+
+#logo{
+	height: 1.5rem;
+	padding-right: 1rem;
+	padding-left: 0.5rem;
+}
