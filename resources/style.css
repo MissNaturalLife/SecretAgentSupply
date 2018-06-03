@@ -4,13 +4,25 @@ html{
 
 header{
 	background-color: black;
+	height: 2.82rem;
 }
 
-header span{
+header p{
+	display: inline-block;
 	color: white;
 	font-family: Helvetica;
 	padding-top: 0.66rem;
-	padding-bottom: 0.66rem;
+	margin-bottom: 0.66rem;
+}
+
+header img{
+	padding-top: 0.66rem;
+}
+
+
+
+nav{
+	background-color: firebrick-red;
 }
 
 .container{
@@ -18,9 +30,18 @@ header span{
 	margin: 0 auto;
 }
 
+#banner{
+	height: 25rem;
+	display: relative;
+	z-index: 1;
+	width: 100%;
+}
+
 #top{
 	background-color: black;
 	width: 25rem;
+	display: relative;
+	z-index: 2;
 }
 
 #top p{
