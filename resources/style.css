@@ -22,7 +22,21 @@ header img{
 
 
 nav{
-	background-color: firebrick-red;
+	background-color: firebrick;
+	color: white;
+	height: 2.25rem;
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+	padding-top: 0.75rem;
+}
+
+div img{
+	height: 9rem;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	display: inline-flex;
+	border: black solid 4px;
 }
 
 .container{
@@ -30,18 +44,29 @@ nav{
 	margin: 0 auto;
 }
 
-#banner{
+.main-banner{
 	height: 25rem;
-	display: relative;
 	z-index: 1;
-	width: 100%;
+	background: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#image{
+	background-color: black;
+	color: white;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
 }
 
 #top{
 	background-color: black;
 	width: 25rem;
-	display: relative;
 	z-index: 2;
+	position: relative;
+	margin-left: 10rem;
 }
 
 #top p{
@@ -67,4 +92,8 @@ nav{
 	height: 1.5rem;
 	padding-right: 1rem;
 	padding-left: 0.5rem;
+}
+
+#thermal{
+	width: 30%;
 }
