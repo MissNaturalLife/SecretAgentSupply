@@ -34,6 +34,7 @@ nav{
 div img{
 	height: 9rem;
 	padding: 2rem;
+	display: inline-flex;
 }
 
 .container{
@@ -53,6 +54,7 @@ div img{
 
 .image{
 	border: 4px black solid;
+	width: 30%;
 }
 
 #image{
