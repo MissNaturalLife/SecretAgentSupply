@@ -8,7 +8,7 @@ header{
 }
 
 header p{
-	display: inline-block;
+	display: inline-flex;
 	color: white;
 	font-family: Helvetica;
 	padding-top: 0.66rem;
@@ -17,6 +17,8 @@ header p{
 
 header img{
 	padding-top: 0.66rem;
+	height: 1.5rem;
+	width: 3rem;
 }
 
 
@@ -34,7 +36,25 @@ nav{
 div img{
 	height: 9rem;
 	padding: 2rem;
-	display: inline-flex;
+}
+
+div h3{
+	width: 15rem;
+	background-color: black;
+	color: white;
+	padding-left: 3rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+footer{
+	height: 5rem;
+	background-color: black;
+}
+
+footer p{
+	color: white;
+	padding-top: 2.3rem;
 }
 
 .container{
@@ -52,9 +72,33 @@ div img{
 	position: relative;
 }
 
+.images{
+	display: flex;
+}
+
 .image{
 	border: 4px black solid;
 	width: 30%;
+	display: relative;
+	justify-content: space-between;
+	margin-bottom: 3rem;
+}
+
+.bottom{
+	display: flex;
+	width: 35%;
+	position: relative;
+	justify-content: space-between;
+	margin-bottom: 4rem;
+}
+
+#hours{
+	display: relative;
+	float: right;
+}
+
+#bottom{
+	width: 35%;
 }
 
 #image{
