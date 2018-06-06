@@ -33,9 +33,7 @@ nav{
 
 div img{
 	height: 9rem;
-	margin-top: 2rem;
-	margin-bottom: 2rem;
-	display: inline-flex;
+	padding: 2rem;
 	border: black solid 4px;
 }
 
@@ -54,11 +52,17 @@ div img{
 	position: relative;
 }
 
+div img span{
+	display: inline-flex;
+}
+
 #image{
 	background-color: black;
 	color: white;
-	padding-top: 2rem;
-	padding-bottom: 2rem;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	display: inline-flex;
+
 }
 
 #top{
