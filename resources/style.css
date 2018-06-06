@@ -34,7 +34,6 @@ nav{
 div img{
 	height: 9rem;
 	padding: 2rem;
-	border: black solid 4px;
 }
 
 .container{
@@ -52,8 +51,9 @@ div img{
 	position: relative;
 }
 
-div img span{
+.image{
 	display: inline-flex;
+	border: 4px black solid;
 }
 
 #image{
@@ -61,8 +61,6 @@ div img span{
 	color: white;
 	padding-top: 0.5rem;
 	padding-bottom: 0.5rem;
-	display: inline-flex;
-
 }
 
 #top{
