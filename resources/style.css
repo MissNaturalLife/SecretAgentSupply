@@ -1,3 +1,9 @@
+@media only screen and (max-width: 1024px){
+	.image{
+		width: 47%;
+	}
+}
+
 html{
 	font-size: 18px;
 }
@@ -74,6 +80,7 @@ footer p{
 
 .images{
 	display: flex;
+	width: 960px;
 }
 
 .image{
