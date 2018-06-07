@@ -1,6 +1,10 @@
 @media only screen and (max-width: 470px){
+	footer p{
+		justify-content: center;
+	}
+
 	.container{
-		width: 80%;
+		width: 100%;
 	}
 	.secret{
 		display: none;
@@ -10,20 +14,21 @@
 		display: none;
 	}
 
-	#top{
-		max-width: 100%;
+	.banner-text{
+		max-width: 80%;
 		padding-left: 2rem;
 		padding-top: 1rem;
 	}
-	#top p{
+	.banner-text p{
 		font-size: 0.77rem;
 		font-weight: bold;
 	}
 
-	#top h2{
+	.banner-text h2{
 		font-size: 1rem;
 		font-weight: bold;
 	}
+
 }
 
 @media only screen and (min-width: 1024px){
@@ -51,7 +56,7 @@
 		display: none;
 	}
 
-	#top{
+	.banner-text{
 		float: left;
 	}
 }
@@ -168,14 +173,14 @@ footer p{
 	padding-bottom: 0.5rem;
 }
 
-#top{
+.banner-text{
 	background-color: black;
 	width: 25rem;
 	z-index: 2;
 	position: relative;
 }
 
-#top p{
+.banner-text p{
 	font-family: Helvetica;
 	font-size: 1rem;
 	font-weight: bold;
@@ -185,7 +190,7 @@ footer p{
 	color: white;
 }
 
-#top h2{
+.banner-text h2{
 	font-family: Helvetica;
 	font-weight: bold;
 	color: white;
